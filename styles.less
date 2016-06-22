@@ -1,0 +1,78 @@
+@base00: #2C3E50; 
+@base01: #34495E; 
+@base02: #7F8C8D; 
+@base03: #95A5A6; 
+@base04: #BDC3C7; 
+@base05: #e0e0e0; 
+@base06: #f5f5f5; 
+@base07: #ECF0F1; 
+@base08: #E74C3C; 
+@base09: #E67E22; 
+@base0A: #F1C40F; 
+@base0B: #2ECC71; 
+@base0C: #1ABC9C; 
+@base0D: #3498DB; 
+@base0E: #9B59B6; 
+@base0F: #be643c; 
+
+
+
+
+
+@background-color: @base00;
+@text-color: @base05;
+
+
+
+
+body{
+  background-color: @background-color;
+  color: @text-color;
+  padding: 15px;
+}
+
+a{
+  background-color: @background-color;
+  color: @text-color;
+text-decoration: none;
+}
+
+
+
+@-webkit-keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.0;}
+}
+.blink{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 0.6s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:steps(2);
+	-webkit-animation-direction: alternate;
+}
+
+
+
+
+.base00{ color: @base00; }
+.base01{ color: @base01; }
+.base02{ color: @base02; }
+.base03{ color: @base03; }
+.base04{ color: @base04; }
+.base05{ color: @base05; }
+.base06{ color: @base06; }
+.base07{ color: @base07; }
+.base08{ color: @base08; }
+.base09{ color: @base09; }
+.base0A{ color: @base0A; }
+.base0B{ color: @base0B; }
+.base0C{ color: @base0C; }
+.base0D{ color: @base0D; }
+.base0E{ color: @base0E; }
+.base0F{ color: @base0F; }
+
+
+
+
+
